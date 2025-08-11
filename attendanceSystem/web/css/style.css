@@ -1,0 +1,32 @@
+body {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    color: white;
+}
+
+a {
+    background-color: black;
+    color: white;
+    padding: 3px 25px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 9px;
+    border: 2px solid white;
+}
+
+input,
+select,
+button {
+    padding: 6px;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+h3 {
+    color: black;
+}
